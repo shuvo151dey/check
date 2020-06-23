@@ -1,0 +1,10 @@
+var greentoken1 = document.getElementById('greentoken1');
+var greentoken2 = document.getElementById('greentoken2');
+var bluetoken1 = document.getElementById('bluetoken1');
+var bluetoken2 = document.getElementById('bluetoken2');
+var dice = document.getElementById('dice');
+greentoken1.onclick = () => randomMove('green',1);
+greentoken2.onclick = () => randomMove('green',2);
+bluetoken1.onclick = () => randomMove('blue',1);
+bluetoken2.onclick = () => randomMove('blue',1);
+dice.onclick = randomNum;
